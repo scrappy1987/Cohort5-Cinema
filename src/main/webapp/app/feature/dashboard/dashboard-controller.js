@@ -1,3 +1,10 @@
-/**
- * Created by JGordon on 06/03/2017.
- */
+(function() {
+
+    var DashBoardController =  function()
+    {
+        var vm = this;
+
+        vm.test = "test";
+    };
+    angular.module('cinema').controller('dashboardController', [DashBoardController]);
+}());
